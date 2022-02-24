@@ -20,11 +20,11 @@ import (
 )
 
 func main() {
-	ctx := context.Background()
+    ctx := context.Background()
 
-	ctx = locale.ToContext(ctx, language.French)
+    ctx = locale.ToContext(ctx, language.French)
 
-	tag := locale.FromContext(ctx) // return language.French or locale.DefaultLocale if
+    tag := locale.FromContext(ctx) // return language.French or locale.DefaultLocale if
 }
 
 ```
