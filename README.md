@@ -20,7 +20,7 @@ import (
 )
 
 func main() {
-    ctx := context.Background()
+	ctx := context.Background()
 
 	ctx = locale.ToContext(ctx, language.French)
 
